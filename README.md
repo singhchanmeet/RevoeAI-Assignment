@@ -2,6 +2,11 @@
 
 A modern web application that provides a dashboard interface with Google Sheets integration. This project consists of a Next.js frontend and a Node.js/Express backend, allowing users to visualize and manipulate data from Google Sheets with real-time updates.
 
+
+Check out the live links
+- [client](https://sheets-dashboard-revoeai.vercel.app/)
+- [server](https://sheets-dashboard-revoeai.onrender.com/)
+- [demo video](https://www.loom.com/share/f91e4623142c45829e6fac254790d3b4?sid=35e8961f-b79c-48d3-88f2-7aa0389a927c)
 ## Features
 
 ### Authentication
