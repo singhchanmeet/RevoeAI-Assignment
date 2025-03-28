@@ -1,0 +1,65 @@
+# Frontend .gitignore
+# Next.js
+/dashboard-frontend/.next/
+/dashboard-frontend/out/
+/dashboard-frontend/build
+/dashboard-frontend/dist
+
+# Dependencies
+/dashboard-frontend/node_modules
+/dashboard-frontend/.pnp
+/dashboard-frontend/.pnp.js
+/dashboard-frontend/.yarn/install-state.gz
+
+# Testing
+/dashboard-frontend/coverage
+
+# Debug
+/dashboard-frontend/npm-debug.log*
+/dashboard-frontend/yarn-debug.log*
+/dashboard-frontend/yarn-error.log*
+
+# Local env files
+/dashboard-frontend/.env*.local
+/dashboard-frontend/.env
+
+# Vercel
+/dashboard-frontend/.vercel
+
+# TypeScript
+/dashboard-frontend/*.tsbuildinfo
+/dashboard-frontend/next-env.d.ts
+
+# Backend .gitignore
+# Dependencies
+/dashboard-backend/node_modules
+
+# Environment variables
+/dashboard-backend/.env
+/dashboard-backend/.env.local
+/dashboard-backend/.env.development.local
+/dashboard-backend/.env.test.local
+/dashboard-backend/.env.production.local
+
+# Logs
+/dashboard-backend/logs
+/dashboard-backend/*.log
+/dashboard-backend/npm-debug.log*
+/dashboard-backend/yarn-debug.log*
+/dashboard-backend/yarn-error.log*
+
+# Runtime data
+/dashboard-backend/pids
+/dashboard-backend/*.pid
+/dashboard-backend/*.seed
+/dashboard-backend/*.pid.lock
+
+# Testing
+/dashboard-backend/coverage
+
+# Google API credentials
+/dashboard-backend/google-credentials.json
+
+# Production build
+/dashboard-backend/build
+/dashboard-backend/dist
